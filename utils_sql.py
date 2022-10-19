@@ -1,3 +1,5 @@
+# Copyright (c) Meta Platforms, Inc. and affiliates.
+
 ################################
 # val: number(float)/string(str)/sql(dict)
 # col_unit: (agg_id, col_id, isDistinct(bool))

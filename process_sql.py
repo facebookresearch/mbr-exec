@@ -1,3 +1,5 @@
+# Copyright (c) Meta Platforms, Inc. and affiliates.
+
 ################################
 # Assumptions:
 #   1. sql is correct

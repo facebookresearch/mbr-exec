@@ -1,3 +1,5 @@
+# Copyright (c) Meta Platforms, Inc. and affiliates.
+
 import os
 import tempfile
 from datasets import load_metric 
