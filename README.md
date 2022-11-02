@@ -3,7 +3,7 @@
 
 ## Setup
 1. Download the [MBPP](https://github.com/google-research/google-research/tree/master/mbpp), [Spider](https://yale-lily.github.io/spider), and [NL2Bash](https://github.com/TellinaTool/nl2bash) datasets to `data/` and follow their instructions for necessary preprocessing steps. 
-2. Download our collected Codex data. We have included the pre-executed result with the data; see also `execution.py` if you'd like to execute automatically collected code locally. 
+2. Download our [collected Codex data][https://dl.fbaipublicfiles.com/mbr-exec/mbr-exec-release.zip]. We have included the pre-executed result with the data; see also `execution.py` if you'd like to execute automatically collected code locally. 
 3. Install the `conda` environment by 
 ```bash
 conda env create -f env.yml
@@ -18,6 +18,8 @@ select_mbpp(('test', 0.3, 'mbr_exec', 'data/mbr-exec/mbpp/', 5, 0))
 ```
 
 See also the code for more details. 
+
+
 
 --- 
 ## License
